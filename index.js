@@ -6,11 +6,12 @@ const signup = document.getElementById('signup');
 console.log(name);
 console.log(email);
 console.log(password);
-console.log(button);
-button.addEventListener('click', () => {
+console.log(signup);
+signup.addEventListener('click', () => {
     console.log('button clicked!');
     console.log(name.value);
     console.log(email.value);
     console.log(password.value);
-    alert(`Name: +{name.value} +\nEmail:' +{email.value} +\nPassword: +{password.value}`);
+     alert('name ' + name.value + '\nemail ' + email.value + '\npassword ' + password.value)
+
 });
