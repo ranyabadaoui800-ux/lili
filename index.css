@@ -4,9 +4,8 @@ h1{
 }
 .form{
     display:flex;
-    align-items:center;
-    gap:20px;
     flex-direction:column;
-    
+    gap:10px;
+    align-items:center;
 
 }
